@@ -1,0 +1,1 @@
+This repository holds the labs and projects completed for the intro to web design class at the University of Pittsburgh
