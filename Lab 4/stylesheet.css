@@ -1,0 +1,87 @@
+/*John Hofrichter
+CSS file sheet*/
+
+body
+{
+     margin: 0px;
+     padding: 0px;
+     background: #B84D4D;   
+}
+
+table
+{
+	background-color:white;
+}
+
+a 
+{
+    color: #293941;
+    text-decoration: none;
+}
+
+
+.titleRow{height: 30px;}
+#titleRowText
+{
+	text-align: center;
+	color: #293941;
+	font-size: 75px;
+	margin:30px;
+}
+
+
+.mainRow{height:100%;}
+.mainText
+{
+	text-align: center;
+	vertical-align: top;
+	color: #293941;
+	font-size: 20px;
+} 
+
+
+.linkBar{height:10px;}s
+.linkWidth{width:30px;}
+#linkBarText
+{
+	text-align: left;
+	color: #293941;
+	font-size: 20px;
+	background-color:white;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+.pageBorder{background-color: black;}
+.vertical{width:1px;}
+.horizontal{height:1px;}
+
+.pageTitleTable{width:60px;}
+#pageTitle
+{
+	text-align: center;
+	color: #293941;
+	font-size: 25px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.picture
+{
+	height:240;
+	width:360;
+}
+
+
+.tableFormat
+{
+	text-align: center;
+	width: 95%;
+	height: 95%; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: auto;
+	text-align: left;
+}
