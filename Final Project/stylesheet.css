@@ -3,7 +3,7 @@ body
 {
   margin: 0px 0px 0px 10%;
   padding: 0px;
-  background: #001c1c none repeat scroll 0% 50%;
+  background: #080C17 none repeat scroll 0% 50%;
   font-family: Lucida Sans Unicode;
   text-align: center;
   color: #8c8c8c;
@@ -18,14 +18,10 @@ a
   color: #293941;
   text-decoration: none;
 }
+
 .title 
 {
 
-}
-
-.heading 
-{
-  font-size: 60pt;
 }
 
 .main 
@@ -33,25 +29,55 @@ a
 
 }
 
+.header 
+{
+  padding: 7pt;
+}
+.subtext 
+{
+  font-size: 15pt;
+}
+
+
 .navigation 
 {
 
 }
 
-.header_block
+.y_background
 {
   background-color: #ccd680;
-  font-color: #8c8c8c;
+  color: #000000;
+}
+
+.b_background
+{
+  background: #080C17 none repeat scroll 0% 50%;
+  color: #8c8c8c;
+}
+
+.header_block
+{
+  text-align: left;
+  font-size: 20pt;
+  height: 36pt;
 }
 
 .b_heading 
 {
   height: 1pt;
-  background-color:#8c8c8c;
-  width: 80%;
+  background-color:#010921;
 }
 
 .subtext 
 {
   font-size: 15pt;
+}
+
+.picture
+{
+  float: left;
+  height:30pt;
+  width: 30pt;
+  margin: 3pt;
 }
