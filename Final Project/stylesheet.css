@@ -2,18 +2,15 @@
 html
 {
   height:100%;
+  width:100%;
 }
 body 
 {
-  background: #0E1529;
   font-family: Lucida Sans Unicode;
   text-align: center;
   color: #8c8c8c;
-  width: 99%;
-  margin-left: 0.5%;
   height:100%;
-  margin-top: 0;
-  padding-top: 0;
+  width:100%;
 }
 table 
 {
@@ -23,31 +20,6 @@ a
 {
   color: #293941;
   text-decoration: none;
-}
-
-.title 
-{
-
-}
-
-.main 
-{
-  background-color: #FFFFFF;
-  height:100%;
-}
-
-.header_border
-{
-  height:1pt;
-  width:250pt;
-  margin-left: 20pt;
-  background:black;
-}
-.nav_border
-{
-  height:.5pt;
-  width:100%;
-  background: #0E1529 
 }
 
 .nav
@@ -80,7 +52,7 @@ a
 
 .header_block
 {
-  text-align: left;
+  /*text-align: left;*/
   font-size: 20pt;
   height: 45pt;
 }
@@ -92,8 +64,6 @@ a
 }
 
 .main_text
-{
-  padding:15pt;
   background-color: #FFFFFF;
   height:100%;
 }
@@ -103,11 +73,10 @@ a
   font-size: 15pt;
 }
 
-.picture
+.banner_box{width:100%;}
+.banner
 {
   float: left;
-  height:30pt;
-  width: 30pt;
-  margin: 3pt;
-  margin-right: 10pt;
+  height:100pt;
+  width:500pt;
 }
