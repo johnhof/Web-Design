@@ -1,0 +1,160 @@
+<!-- John Hofrichter -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">-->
+<html>
+<head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+<title>Final Project</title>
+
+<script src="jquery.js"></script>
+<script>
+$(function()
+{
+	$(".expand").hover(function(e)
+	{
+		$(this).children().show()
+	},
+	function(e)
+	{
+		$(this).children(".dropdown").hide()
+	})
+
+})
+
+</script>
+
+</head>
+<body>
+	<div class="banner_box b_background">
+		<a href="index.htm"><img src="images\Banner.png" alt="banner" class="banner"></a>
+		<a href="http://www.facebook.com/john.hofrichter"><img src="images\facebook.png" alt="banner" class="link_pick"></a>
+		<a href="https://github.com/johnhof"><img src="images\octocat.png" alt="banner" class="link_pick"></a>	
+	</div>
+
+	<table height="100%" width="100%">
+		<tr>
+			<td class="nav">
+				<ul>
+					<li class="nav_spacer">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id="home">
+						<a href="index.htm">Home</a>
+							<div class="h_nav_border"></div>
+						</div>
+					</li>
+
+					<li class="nav_spacer expand">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id='personal'>
+							<a href="personal.htm">Personal</a>
+							<div class="h_nav_border"></div>
+						</div>
+							<div class="link_left__frame dropdown" id="bio">
+							<a href="bio.htm">Bio</a>
+							<div class="h_nav_border"></div>
+						</div>
+										
+						<div class="link_left__frame dropdown" id="climbing">
+							<a href="climbing.htm">Climbing</a>
+							<div class="h_nav_border"></div>
+						</div>
+
+						<div class="link_left__frame dropdown" id="woodworking">
+							<a href="woodworking.htm">Woodworking</a>
+							<div class="h_nav_border" ></div>
+						</div>
+
+					</li>
+
+					<li class="nav_spacer expand">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id='experience'>
+							<a href="experience.htm">Experience</a>
+							<div class="h_nav_border"></div>
+						</div>
+
+						<div class="link_left__frame dropdown" id="employment">
+							<a href="employment.htm">Employment</a>
+							<div class="h_nav_border"></div>
+						</div>
+										
+						<div class="link_left__frame dropdown" id="projects">
+							<a href="projects.htm">Projects</a>
+							<div class="h_nav_border" ></div>
+						</div>
+					</li>
+
+					<li class="nav_spacer">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id='education'>
+							<a href="education.htm">Education</a>
+							<div class="h_nav_border"></div>
+						</div>
+					</li>
+								
+					<li class="nav_spacer">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id='resume'>
+							<a href="resume.htm">Resume</a>
+							<div class="h_nav_border"></div>
+						</div>
+					</li>
+				</ul>
+			</td>
+
+			<td>
+
+				<div class="main_div w_background">
+						
+					<div class="page_title">
+						<div class="v_title_border"></div>
+						<div class="title_left__frame" id='resume'>
+							<div>Employment</div>
+							<div class="h_title_border"></div>
+						</div>
+					</div>
+					<div class="page_body">
+						<p>
+							Below I listed a few of my work experiences. First, and most detailed are my Computer Science related internships. I went into a small amount of detail to give an idea of what my experience as like, and what I gained from my time there. At the bottom, I listed some of my non-computer related jobs, along with brief descriptions of what my responsibilities entailed
+						</p>
+
+						<div class="section_header">Ansys</div>
+						<div class="h_title_border section_break"></div>
+
+						<p>
+							Beginning in the srping of 2011, I worked three rotations (~1 year) as a software developer for Ansys Inc. Specifically, I worked as a developer for the geometry team, which was incharge of maintaining and advancing our DesignModeler software. My experience varied from front end, to threading, to back end development, primarily in C++ and JScript.
+						</p>
+						<p>
+							Outside of bug fixing, and small aesthetic and functionality changes, I worked on a few major projects. The first was development of the shaft geometry, where a modeler could input a plaintext file (generated from excel), and Designmodeler would produce a shaft made up of a series of bodies corresponding to the input. The next major project was working to match the Designmodeler features with those in the meshing tool. This  involved things like recoloring of selections, changing selection display styles, and adding some features to emphasise objects visualy. The last major project was to multithread the loading process of our software. This began with extensive time analysis, to find if threading certain sections could speed up the load. Next I researched and began implementing threading tools to make use of multiple core machines.
+						</p>
+						<p>
+							I learned many things from my time at Anysy. the most immediate affect was gaining the ability to descifer and edit large code bases. Additionally, spending a year in the professional world has acclimated me to the work envrienment. Brainstorming and planning meetings are much more intuitive. The most obvious effect was a sharp increase in my ability to plan a project and execute it. A more subtle lesson was my acclimation to a group environment, and understanding how to work with others to quickly and efficiently code new projects, and fix bugs.
+						</p><br>
+
+						<div class="section_header">FER Pitt</div>
+						<div class="h_title_border section_break"></div>
+
+						<p>
+							
+						</p>
+
+
+						<div class="section_header">Additional Experience</div>
+						<div class="h_title_border section_break"></div>
+
+						<p>
+							
+						</p>
+
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+
+
+
+</body>
+</html>

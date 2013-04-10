@@ -1,0 +1,177 @@
+<!-- John Hofrichter -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">-->
+<html>
+<head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+<title>Final Project</title>
+
+<script src="jquery.js"></script>
+<script>
+$(function()
+{
+	$(".expand").hover(function(e)
+	{
+		$(this).children().show()
+	},
+	function(e)
+	{
+		$(this).children(".dropdown").hide()
+	})
+
+})
+
+</script>
+
+</head>
+<body>
+	<div class="banner_box b_background">
+		<a href="index.htm"><img src="images\Banner.png" alt="banner" class="banner"></a>
+		<a href="http://www.facebook.com/john.hofrichter"><img src="images\facebook.png" alt="banner" class="link_pick"></a>
+		<a href="https://github.com/johnhof"><img src="images\octocat.png" alt="banner" class="link_pick"></a>	
+	</div>
+
+	<table height="100%" width="100%">
+		<tr>
+			<td class="nav">
+				<ul>
+					<li class="nav_spacer">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id="home">
+						<a href="index.htm">Home</a>
+							<div class="h_nav_border"></div>
+						</div>
+					</li>
+
+					<li class="nav_spacer expand">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id='personal'>
+							<a href="personal.htm">Personal</a>
+							<div class="h_nav_border"></div>
+						</div>
+							<div class="link_left__frame dropdown" id="bio">
+							<a href="bio.htm">Bio</a>
+							<div class="h_nav_border"></div>
+						</div>
+										
+						<div class="link_left__frame dropdown" id="climbing">
+							<a href="climbing.htm">Climbing</a>
+							<div class="h_nav_border"></div>
+						</div>
+
+						<div class="link_left__frame dropdown" id="woodworking">
+							<a href="woodworking.htm">Woodworking</a>
+							<div class="h_nav_border" ></div>
+						</div>
+
+					</li>
+
+					<li class="nav_spacer expand">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id='experience'>
+							<a href="experience.htm">Experience</a>
+							<div class="h_nav_border"></div>
+						</div>
+
+						<div class="link_left__frame dropdown" id="employment">
+							<a href="employment.htm">Employment</a>
+							<div class="h_nav_border"></div>
+						</div>
+										
+						<div class="link_left__frame dropdown" id="projects">
+							<a href="projects.htm">Projects</a>
+							<div class="h_nav_border" ></div>
+						</div>
+					</li>
+
+					<li class="nav_spacer">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id='education'>
+							<a href="education.htm">Education</a>
+							<div class="h_nav_border"></div>
+						</div>
+					</li>
+								
+					<li class="nav_spacer">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id='resume'>
+							<a href="resume.htm">Resume</a>
+							<div class="h_nav_border"></div>
+						</div>
+					</li>
+				</ul>
+			</td>
+
+			<td>
+
+				<div class="main_div w_background">
+						
+					<div class="page_title">
+						<div class="v_title_border"></div>
+						<div class="title_left__frame" id='resume'>
+							<div>Resume</div>
+							<div class="h_title_border"></div>
+						</div>
+					</div>
+					<div class="page_body">
+						<p>
+							
+JOHN M. HOFRICHTER
+1015 First Street • Canonsburg, Pennsylvania 15317
+jmh162@pitt.edu • Home: 724-745-5308 • Cell: 724-678-5260
+
+
+
+EDUCATION
+University of Pittsburgh					               		Pittsburgh, PA
+B.S. Computer Science, Concentration: Security 					Aug. 2009 – Dec. 2013
+GPA:   3.182/4.0
+
+Canon-McMillan High School						   	Canonsburg, PA     &nbsp;&nbsp;&nbsp;     Sept. 2005 – June 2009 
+
+PROFFESIONAL EMPLOYMENT EXPERIENCE 
+Ansys Inc.     &nbsp;&nbsp;&nbsp;      Canonsburg, PA
+Software Development Cooperative student    &nbsp;&nbsp;&nbsp;             		Spring 2011, Fall 2011, Summer 2012 
+
+•	Worked with C++ and JScript to develop software for the Ansys DesignModeler CAD package
+                                                                           
+Sodexo Inc.								               Pittsburgh, PA
+Assistant to the Controller					          			 Fall 2009 & 2010
+•	Performed basic office functions                                                                                 
+
+Office of Freshmen Programs					            		 Pittsburgh, PA
+ First Experience in Research Participant				   		 Spring 2010
+•	 Took part in programming a graphical interface for mapping human cell proteins and their interactions using the Cytoscape framework
+•	Focused on creating code to organize and format data for easy transition into a visual format
+
+LANGUAGES
+•	Ordered by experience: C++, Java, C, SQL, SQLJ, Mips Assembly, Jscript, JavaScript
+•	Major projects can be found at:  github.com/johnhof
+
+SKILLS
+•	Experience using CSS
+•	Three semesters developing software with C++ and JScript in a full time professional environment
+•	Microsoft Office, Microsoft Visual Studios
+•	Two years of UNIX software development (using remote servers only)
+•	Functional knowledge of Linux (Ubuntu)
+•	Upper level classes focusing on development for Operating Systems, Networks, Databases, Cryptography, and interface design
+
+AWARDS AND HONORS
+Boy Scouts of America
+•	Eagle Scout
+Office of Cross Cultural and Leadership Development, University of Pittsburgh
+•	Completion of the Emerging Leaders program
+
+						</p>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+
+
+
+</body>
+</html>

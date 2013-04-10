@@ -1,0 +1,141 @@
+<!-- John Hofrichter -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">-->
+<html>
+<head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+<title>Final Project</title>
+
+<script src="jquery.js"></script>
+<script>
+$(function()
+{
+	$(".expand").hover(function(e)
+	{
+		$(this).children().show()
+	},
+	function(e)
+	{
+		$(this).children(".dropdown").hide()
+	})
+
+})
+
+</script>
+
+</head>
+<body>
+	<div class="banner_box b_background">
+		<a href="index.htm"><img src="images\Banner.png" alt="banner" class="banner"></a>
+		<a href="http://www.facebook.com/john.hofrichter"><img src="images\facebook.png" alt="banner" class="link_pick"></a>
+		<a href="https://github.com/johnhof"><img src="images\octocat.png" alt="banner" class="link_pick"></a>	
+	</div>
+
+	<table height="100%" width="100%">
+		<tr>
+			<td class="nav">
+				<ul>
+					<li class="nav_spacer">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id="home">
+						<a href="index.htm">Home</a>
+							<div class="h_nav_border"></div>
+						</div>
+					</li>
+
+					<li class="nav_spacer expand">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id='personal'>
+							<a href="personal.htm">Personal</a>
+							<div class="h_nav_border"></div>
+						</div>
+							<div class="link_left__frame dropdown" id="bio">
+							<a href="bio.htm">Bio</a>
+							<div class="h_nav_border"></div>
+						</div>
+										
+						<div class="link_left__frame dropdown" id="climbing">
+							<a href="climbing.htm">Climbing</a>
+							<div class="h_nav_border"></div>
+						</div>
+
+						<div class="link_left__frame dropdown" id="woodworking">
+							<a href="woodworking.htm">Woodworking</a>
+							<div class="h_nav_border" ></div>
+						</div>
+
+					</li>
+
+					<li class="nav_spacer expand">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id='experience'>
+							<a href="experience.htm">Experience</a>
+							<div class="h_nav_border"></div>
+						</div>
+
+						<div class="link_left__frame dropdown" id="employment">
+							<a href="employment.htm">Employment</a>
+							<div class="h_nav_border"></div>
+						</div>
+										
+						<div class="link_left__frame dropdown" id="projects">
+							<a href="projects.htm">Projects</a>
+							<div class="h_nav_border" ></div>
+						</div>
+					</li>
+
+					<li class="nav_spacer">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id='education'>
+							<a href="education.htm">Education</a>
+							<div class="h_nav_border"></div>
+						</div>
+					</li>
+								
+					<li class="nav_spacer">
+						<div class="v_nav_border"></div>
+						<div class="link_left__frame" id='resume'>
+							<a href="resume.htm">Resume</a>
+							<div class="h_nav_border"></div>
+						</div>
+					</li>
+				</ul>
+			</td>
+
+			<td>
+
+				<div class="main_div w_background">
+						
+					<div class="page_title">
+						<div class="v_title_border"></div>
+						<div class="title_left__frame" id='resume'>
+							<div> Home</div>
+							<div class="h_title_border"></div>
+						</div>
+					</div>
+					<div class="page_body">
+						<p>
+						personal will have the dropdown: Bio, Climbing, Woodworking</br>
+
+							include at least three different font colors(hex codes only!) and two different font styles
+							publish the site called "project.html" to your "cs134" directory and post your url in the appropriate drop box
+							present your website in class
+						</p>
+						<p>
+							(30 pts) Utilize most of the basic techniques such as xhtml template, p, div, h1-h6, br, hr, meta, title, background color, at least hree different font colors and two font sizes, name in xhtml comments.
+							(5 pt) include Javascript to do something useful for your website (Javascript must contribute to the functionalities of your website)
+							(10 pts) content includes 8+ pages (10 pts) or 4+ pages (5 pts)
+							(10 pts) content is rich in variety (10 pts) or has some variety (5 pt) - use of animation, video clips, multimedia would help
+						</p>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+
+
+
+</body>
+</html>
