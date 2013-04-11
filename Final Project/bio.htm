@@ -26,51 +26,58 @@ $(function()
 </script>
 
 </head>
-<body>
+<body class="l_g_background">
 	<div class="banner_box l_b_background">
 		<!--<a href="index.htm"><img src="images\Banner2.png" alt="banner" class="banner"></a>-->
-		<img src="images\logo.png" alt="banner" class="link_pic" style="float:left;">
-		<div class="l_b_background" style="padding-top:15px;width:800px;float:left;">
-			<div style="float:left;font-size:25pt">John Hofrichter</div> 
-			<div style="padding-left:10px;padding-top:10px;font-size:16pt;float:left;">| jmh162@pitt.edu</div>
-		</div>
+		<a href="index.htm" class="active">
+			<img src="images\logo.png" alt="banner" class="link_pic" style="float:left;">
+			<div class="" style="padding-top:15px;width:500px;float:left;">
+				<div style="float:left;font-size:25pt">John Hofrichter</div> 
+				<div style="padding-left:10px;padding-top:10px;font-size:16pt;float:left;">| jmh162@pitt.edu</div>
+			</div>
+		</a>
+
 		<a href="http://www.facebook.com/john.hofrichter"><img src="images\facebook.png" alt="facebook" class="link_pic"></a>
-		<a href="https://github.com/johnhof"><img src="images\octocat.png" alt="octocat" class="link_pic"></a>	
+		<a href="http://www.linkedin.com/in/johnhofrichter/"><img src="images\linkedin.png" alt="octocat" class="link_pic"></a>
+		<a href="https://github.com/johnhof"><img src="images\octocat.png" alt="octocat" class="link_pic"></a>
 
 	</div>
 
 	<table height="80%" width="80%" class="main">
 		<tr>
-			<td class="nav y_background">
-				<table width="100%"><tr class="nav_box top_left_rad">
-					<td class="nav_box top_left_rad l_b_background"><a href="index.htm" class="nav_block l_b_background" >Home</a></td> 
+			<td class="nav">
+				<table width="100%"><tr class="nav_box">
+					<td class="nav_box top_left_rad y_background"><a href="index.htm">Home</a></td> 
 
-					<td class="nav_box"><a href="personal.htm" class="nav_block">Personal</a></td>
-	<!--
-					<a href="bio.htm" class="nav_block">Bio</a>
-					<a href="climbing.htm" class="nav_block">Climbing</a>
-					<a href="woodworking.htm" class="nav_block">Woodworking</a>
-	-->
+					<td class="nav_box l_b_background" id="bluemenu">
+						<a href="personal.htm"  rel="dropmenu1" class="nav_block active">Personal</a>
+						<!--<div id="personal_dropdown">
+							<ul class="submenu">
+								<li ><a href="bio.htm"  >Bio</a></li>
+								<li><a href="climbing.htm"  >Climbing</a></li>
+								<li><a href="woodworking.htm"  >Woodworking</a></li>
+							</ul>
+						</div>-->
+					</td>
 
-					<td class="nav_box"><a href="education.htm" class="nav_block">Education</a></td>
+					 <td class="nav_box y_background"><a href="education.htm"  >Education</a></td>
 
-					<td class="nav_box"><a href="experience.htm" class="nav_block">Experience</a></td>
-	<!--
-					<a href="employment.htm" class="nav_block">Employment</a>
-					
-					<div class="v_nav_border"></div>
-
-					<a href="projects.htm" class="nav_block">Projects</a>
-	-->
+					<td class="nav_box y_background">
+						<a href="experience.htm"  >Experience</a>
+						<!--<ul class="submenu">
+							<li><a href="employment.htm"  >Employment</a></li>
+							<li><a href="projects.htm"  >Projects</a></li>
+						</ul>-->
+					</td>
 									
-					<td class="nav_box top_right_rad"><a href="resume.htm" class="nav_block">Resume</a></td>
+					<td class="nav_box top_right_rad y_background"><a href="resume.htm"  >Resume</a></td>
 				</tr></table>
 			</td>
 		</tr>
+		
 		<tr>
 			<td>
-				<div class="h_nav_border"></div>
-				<div class="main_div page_body l_g_background">
+				<div class="main_div page_body w_background">
 					<p>
 							<p>
 								&nbsp;&nbsp;
