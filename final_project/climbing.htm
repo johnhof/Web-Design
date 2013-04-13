@@ -1,0 +1,103 @@
+<!-- John Hofrichter -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">-->
+<html>
+<head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+<title>Final Project</title>
+
+<script src="jquery.js"></script>
+<script>
+$(function()
+{
+	$(".nav_box").hover(function(e)
+	{
+		$(this).children().show()
+	},
+	function(e)
+	{
+		$(this).children(".submenu").hide()
+	})
+
+})
+
+</script>
+</head>
+<body class="l_g_background">
+	<div class="banner_box l_b_background">
+		<!--<a href="index.htm"><img src="images\Banner2.png" alt="banner" class="banner"></a>-->
+		<a href="index.htm" class="active">
+			<img src="images\logo.png" alt="banner" class="link_pic" style="float:left;">
+			<div class="" style="padding-top:15px;width:500px;float:left;">
+				<div style="float:left;font-size:25pt">John Hofrichter</div> 
+				<div style="padding-left:10px;padding-top:10px;font-size:16pt;float:left;">| jmh162@pitt.edu</div>
+			</div>
+		</a>
+
+		<a href="http://www.facebook.com/john.hofrichter"><img src="images\facebook.png" alt="facebook" class="link_pic"></a>
+		<a href="http://www.linkedin.com/in/johnhofrichter/"><img src="images\linkedin.png" alt="octocat" class="link_pic"></a>
+		<a href="https://github.com/johnhof"><img src="images\octocat.png" alt="octocat" class="link_pic"></a>
+
+	</div>
+
+	<div class="main">
+		<div width="100%" class="nav">
+			<div class="nav_box top_left_rad l_b_background"><a href="index.htm" class="active box">Home</a> 
+			</div>
+
+			<div class="nav_box y_background" id="bluemenu">
+				<a href="personal.htm" class="box" rel="dropmenu1"  >Personal</a>
+				<ul class="submenu" id="personal_dropdown">
+					<li class="submenu y_background"><a href="bio.htm" class="box">Bio</a></li>
+					<li class="submenu y_background"><a href="climbing.htm" class="box">Climbing</a></li>
+					<li class="submenu y_background"><a href="woodworking.htm" class="box">Woodworking</a></li>
+				</ul>
+			</div>
+
+			 <div class="nav_box y_background"><a href="education.htm" class="box">Education</a></div>
+
+			<div class="nav_box y_background">
+				<a href="experience.htm" class="box">Experience</a>
+				<ul class="submenu" id="personal_dropdown">
+					<li class="submenu y_background"><a href="employment.htm" class="box">Employment</a></li>
+					<li class="submenu y_background"><a href="projects.htm" class="box">Projects</a></li>
+				</ul>
+			</div>
+										
+			<div class="nav_box top_right_rad y_background"><a href="resume.htm" class="box">Resume</a></div>
+		</div>
+		
+		<div class="main_div page_body w_background">
+			<p>
+					&nbsp;&nbsp;
+					Rock climbing is a major passion I have developed in the last few years. I was first introducd to the sport by my sister and father in high school, but I didnt fall in love until I took classes at a local outdoors store. Since then, I have spend a considerable ammount of time on the rock, and at the gym. I primarily sport climb and boulder, but also have experience leading trad both single pitch locally, and multi pitch on Seneca Rocks in West Virginia. Additionally, I have taught basic climbing lessons at the university wall for three semesters, and at a local gym for a year and a half. I am always willing to help others get into the sport, so feel free to contact me with questions, or interest insome introductory lessons.
+				</p>
+
+				<div class="section_header">External Links</div>
+				<div class="h_title_border section_break"></div>
+
+				<p>
+					Learn about climbing: <a href="http://www.abc-of-rockclimbing.com/info/rockclimbing-basics.asp" class="in_page_link">A-B-C's of climbing</a></br></br>
+					Get lessons: <a href="http://www.exkursion.com/" class="in_page_link">Visit Exkursion</a></br></br>
+					Keep the crags open: <a href="http://www.accessfund.org/site/c.tmL5KhNWLrH/b.4861253/k.BDBB/Home.htm" class="in_page_link">Check out the Acccess Fund</a></br></br>
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/VyUoVVDEa-E" frameborder="0" allowfullscreen></iframe>
+				</p>
+
+
+				<div class="section_header">Gallery</div>
+				<div class="h_title_border section_break"></div>
+
+				<center>
+					<img src="images\climbing\coopers0.jpg" alt="coopers0" class="gallery_photo_v">
+					<img src="images\climbing\coopers1.jpg" alt="coopers1" class="gallery_photo_h">
+					<img src="images\climbing\coopers2.jpg" alt="coopers2" style="width:250pt;height:240pt">
+					<img src="images\climbing\seneca0.jpg" alt="seneca0" class="gallery_photo_h">
+					<img src="images\climbing\seneca1.jpg" alt="seneca1" class="gallery_photo_h">
+					<img src="images\climbing\seneca2.jpg" alt="seneca2" class="gallery_photo_v">
+				</center>
+		</div>
+	</div>
+</body>
+</html>

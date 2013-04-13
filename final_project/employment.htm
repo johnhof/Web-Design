@@ -1,0 +1,110 @@
+<!-- John Hofrichter -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">-->
+<html>
+<head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+<title>Final Project</title>
+
+<script src="jquery.js"></script>
+<script>
+$(function()
+{
+	$(".nav_box").hover(function(e)
+	{
+		$(this).children().show()
+	},
+	function(e)
+	{
+		$(this).children(".submenu").hide()
+	})
+
+})
+
+</script>
+</head>
+<body class="l_g_background">
+	<div class="banner_box l_b_background">
+		<!--<a href="index.htm"><img src="images\Banner2.png" alt="banner" class="banner"></a>-->
+		<a href="index.htm" class="active">
+			<img src="images\logo.png" alt="banner" class="link_pic" style="float:left;">
+			<div class="" style="padding-top:15px;width:500px;float:left;">
+				<div style="float:left;font-size:25pt">John Hofrichter</div> 
+				<div style="padding-left:10px;padding-top:10px;font-size:16pt;float:left;">| jmh162@pitt.edu</div>
+			</div>
+		</a>
+
+		<a href="http://www.facebook.com/john.hofrichter"><img src="images\facebook.png" alt="facebook" class="link_pic"></a>
+		<a href="http://www.linkedin.com/in/johnhofrichter/"><img src="images\linkedin.png" alt="octocat" class="link_pic"></a>
+		<a href="https://github.com/johnhof"><img src="images\octocat.png" alt="octocat" class="link_pic"></a>
+
+	</div>
+
+	<div class="main">
+		<div width="100%" class="nav">
+			<div class="nav_box top_left_rad l_b_background"><a href="index.htm" class="active box">Home</a> 
+			</div>
+
+			<div class="nav_box y_background" id="bluemenu">
+				<a href="personal.htm" class="box" rel="dropmenu1"  >Personal</a>
+				<ul class="submenu" id="personal_dropdown">
+					<li class="submenu y_background"><a href="bio.htm" class="box">Bio</a></li>
+					<li class="submenu y_background"><a href="climbing.htm" class="box">Climbing</a></li>
+					<li class="submenu y_background"><a href="woodworking.htm" class="box">Woodworking</a></li>
+				</ul>
+			</div>
+
+			 <div class="nav_box y_background"><a href="education.htm" class="box">Education</a></div>
+
+			<div class="nav_box y_background">
+				<a href="experience.htm" class="box">Experience</a>
+				<ul class="submenu" id="personal_dropdown">
+					<li class="submenu y_background"><a href="employment.htm" class="box">Employment</a></li>
+					<li class="submenu y_background"><a href="projects.htm" class="box">Projects</a></li>
+				</ul>
+			</div>
+										
+			<div class="nav_box top_right_rad y_background"><a href="resume.htm" class="box">Resume</a></div>
+		</div>
+
+		<div class="main_div page_body w_background">
+			<p>
+				Below I listed a few of my work experiences. First, and most detailed are my Computer Science related internships. I went into a small amount of detail to give an idea of what my experience as like, and what I gained from my time there. At the bottom, I listed some of my non-computer related jobs, along with brief descriptions of what my responsibilities entailed
+			</p>
+
+			<div class="section_header">Ansys</div>
+			<div class="h_title_border section_break"></div>
+
+			<p>
+				Beginning in the srping of 2011, I worked three rotations (~1 year) as a software developer for Ansys Inc. Specifically, I worked as a developer for the geometry team, which was incharge of maintaining and advancing our DesignModeler software. My experience varied from front end, to threading, to back end development, primarily in C++ and JScript.
+			</p>
+			<p>
+				Outside of bug fixing, and small aesthetic and functionality changes, I worked on a few major projects. The first was development of the shaft geometry, where a modeler could input a plaintext file (generated from excel), and Designmodeler would produce a shaft made up of a series of bodies corresponding to the input. The next major project was working to match the Designmodeler features with those in the meshing tool. This  involved things like recoloring of selections, changing selection display styles, and adding some features to emphasise objects visualy. The last major project was to multithread the loading process of our software. This began with extensive time analysis, to find if threading certain sections could speed up the load. Next I researched and began implementing threading tools to make use of multiple core machines.
+			</p>
+			<p>
+				I learned many things from my time at Anysy. the most immediate affect was gaining the ability to descifer and edit large code bases. Additionally, spending a year in the professional world has acclimated me to the work envrienment. Brainstorming and planning meetings are much more intuitive. The most obvious effect was a sharp increase in my ability to plan a project and execute it. A more subtle lesson was my acclimation to a group environment, and understanding how to work with others to quickly and efficiently code new projects, and fix bugs.
+			</p><br>
+
+			<div class="section_header">FER Pitt</div>
+			<div class="h_title_border section_break"></div>
+
+			<p>
+							
+			</p>
+
+
+			<div class="section_header">Additional Experience</div>
+			<div class="h_title_border section_break"></div>
+
+			<p>
+							
+			</p>
+
+	 	</div>
+	</div>
+
+
+</body>
+</html>
